@@ -1,0 +1,404 @@
+
+@import url('static.css');
+@import url('btns.css');
+@import url('modal.css');
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url("font/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url("font/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url("font/Poppins-SemiBold.ttf");
+}
+
+img {
+    pointer-events: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins-SemiBold';
+    font-size: 3vw;
+    color: white;
+background: #26060b url('../img/backgrounds/bg.jpg') center/100% 100% no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+.overlay {
+    position: fixed;
+}
+
+.guideHeadingHis {
+    width: 47vw;
+    margin: auto;
+    margin-top: 5vw;
+}
+.colTwotab21{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin: 7vw auto;
+    grid-gap: 18%;
+}
+
+.insidecon{
+    min-height: 25vw;
+    max-height: 131vw;
+    overflow-y: scroll;
+}
+
+.textnormal {
+    font-family: 'Poppins-Light';
+    font-size: 2.7vw;
+}
+
+.textbold {
+    font-family: 'Poppins-Bold';
+    font-size: 5vw;
+}
+
+.textbold2 {
+    font-family: 'Poppins-Bold';
+    font-size: 4vw;
+}
+
+.txtsdots {
+    /* text-overflow: ellipsis; */
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* margin-top: 2.5vw; */
+    /* max-width: 40%; */
+}
+
+
+.headtextnext{
+    text-align: center;
+    font-size: 4vw;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+}
+.inside{
+    height: 64vw;
+    overflow-y: scroll;
+}
+
+button:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+header img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin-top: 1vw;
+}
+
+footer {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: 'Raleway-Bold';
+    color: #ffffff;
+    font-size: 2.7vw;
+}
+
+.headProfileCon {
+    grid-template-columns: 32% 35% 32%;
+}
+
+.headProfileFrame {
+    position: relative;
+    width: 20vw;
+    text-align: right;
+}
+
+.headProfileFrame img:nth-child(1) {
+    width: 23vw;
+    height: 21vw;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.headProfileFrame img:nth-child(2) {
+    width: 17vw;
+    height: 17vw;
+    border-radius: 50%;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+.headProfileTxt {
+    background: url(../img/backgrounds/headerNameBg.png) center/100% 100% no-repeat;
+    padding: 1vw 2vw;
+    text-align: center;
+    position: relative;
+    padding-bottom: 4vw;
+    left: 0vw;
+    font-size: 2vw;
+}
+
+.bgImage {
+    background: url(../img/background/BG.jpg) center/100% 100% no-repeat;
+    /* padding: 2vw 0vw; */
+    margin: auto;
+    height: 100vh;
+}
+
+.moduleDesign {
+    background: url(../img/Module\ Design.png) center/100% 100% no-repeat;
+    padding: 2vw 0vw;
+    margin: auto;
+    /* width: 60%; */
+    height: 50vh; 
+}
+
+.header{
+    background-image: url(../img/Ganesh\ Chaturthi\ Fest\ Header.png);
+    height: 50vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.imgSize{
+    width: 100%;
+}
+.pillow{
+    width: 30%;
+}
+.pillowAlignment{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.guideBG{
+    background-image: url(../img/background/HTP\ Module\ BG.png);
+    width: 100%;
+    /* height: 90vh; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -3rem;
+    display: flex;
+    min-height: 500px;
+    flex-direction: column;
+}
+.howToPlay{
+    background-image: url(../img/HTP\ Heading.png);
+    width: 40%;
+    height: 11vh;
+}
+
+.text{
+    position: relative;
+    /* top: 3rem; */
+    color: white;
+    width: 100%;
+}
+
+/* .imgSize{
+    width: 40%;
+    height: 3vh;
+} */
+
+.alignTextModak{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    /* grid-template-columns: 1fr 1fr; /* Two columns */
+    /* grid-gap: 20px; */
+    position: relative;
+    top: 2rem;
+}
+
+.scheduleModule{
+    background-image: url(../img/background/Schedule\ \ Module\ BG.png);
+    height: 80vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.scheduleSize{
+    width: 50%;
+}
+
+.modakSize{
+    width: 60%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 81%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ca0c0c; /* Header background color */
+    color: white;
+    height: 3vh;
+}
+td {
+    background-color: #5b0f0f;
+    color: white;
+}
+.vs {
+    width: 25%;
+}
+
+.leaderBoard{
+    background-image: url(../img/background/Leaderboard\ Module\ BG.png);
+    width: 100%;
+    height: 130vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.leaderBoardSize{
+    width: 80%;
+    /* display: flex;
+    justify-content: center; */
+}
+.middleFlag{
+    background-image: url(../img/Middle\ Flag\ Design.png);
+    width: 30%;
+    height: 15vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.leftFlag{
+    background-image: url(../img/left\ flag\ Design.png);
+    width: 30%;
+    height: 15vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
+
+.rightFlag{
+    background-image: url(../img/Right\ Flag\ Design.png);
+    width: 30%;
+    height: 15vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
+
+.flagConatainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.frameSize{
+    width: 50%;
+    margin-top: 1rem;
+}
+.userLeaderBoadrd{
+    align-items: center;
+    background-color: rgb(208, 5, 5);
+    width: 90%;
+    height: 8%;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 3;
+    /* border-top-left-radius: 1rem; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+
+.userLeaderBoadrd1{
+    align-items: center;
+    background-color: rgb(208, 5, 5);
+    width: 90%;
+    height: 8%;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 3;
+    /* border-top-left-radius: 1rem; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+
+.user{
+    width: 40%; 
+    height: 10vh;
+    background-image: url(../img/buttons/Users\ Button\ unselected.png);
+    background-repeat: no-repeat; 
+    background-size: 100% 70%;
+}
+
+.user.active{
+    width: 40%; 
+    height: 10vh;
+    background-image: url(../img/buttons/Users\ Button\ selected.png);
+    background-repeat: no-repeat; 
+    background-size: 100% 70%;
+}
+
+.talent.active{
+    width: 40%; 
+    height: 10vh;
+    background-image: url(../img/buttons/Talents\ button\ selected.png);
+    background-repeat: no-repeat; 
+    background-size: 100% 70%;
+}
+
+.talent{
+    width: 40%; 
+    height: 10vh;
+    background-image: url(../img/buttons/Talents\ button\ unselected.png);
+    background-repeat: no-repeat; 
+    background-size: 100% 70%;
+}
+.hidden{
+    display: none;
+}
+.imgUserName{
+    display: flex; 
+    width: 45%; 
+    justify-content: space-evenly;
+}
+
+.userAction{
+    border: 3px solid green;
+    height: 50vh;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: green; */
+}
+.shayri{
+    font-size: large;
+    font-family: "Helvetica", Arial, sans-serif;
+}

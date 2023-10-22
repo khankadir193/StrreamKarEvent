@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganesh Chaturthi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script type="text/javascript" src="./index.js"></script> -->
+  </head>
+  <body>
+    <!-- <button class="guideBtn">
+      <img src="img/buttons/HTP Guide Button.png" class="w100" />
+    </button> -->
+    <header class="header">
+        <!-- <img src="img/Ganesh Chaturthi Fest Header.png" /> -->
+        <dialog id="customDialog">
+          <div class="container">
+            <div>
+              <img  src="img/HTP Heading.png" />
+            </div>
+            <div class="guideBG">
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">Top 28 Talents have to register their ids with SK employees to participate this event</p></div> 
+                </div>
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">PK battle will be held on Ganesh Chaturthi Festival season</p></div> 
+                </div>  
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">tralents need to wear traditional outfit for PK battle.</p></div> 
+                </div>  
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">There will be 10 min Official PK match will be Scheduled.talents need to come live before 15 min of PK battle. </p></div> 
+                </div>
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">Top 16 talent that earns maximum beans will be qualified for the 2nd round i.e Final</p></div> 
+                </div>
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">Talents will be ranked on the leader board according to the number of gems they receive in each round. </p></div> 
+                </div>
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">Users will be ranked according to their spending on each round of the tournament.</p></div> 
+                </div>
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">The winner of this tournament will be decided based on the gems they receive in the Final Round.</p></div> 
+                </div>
+                <div class="alignTextModak">
+                  <div>
+                  <img class="modakSize"  src="img/Modak.png" /></div>
+                  <div>
+                  <p class="text">The maximum spender will be the winner of the tournament.</p></div> 
+                </div>       
+            </div>
+            <button autofocus><img class="closeBtn" src="img/buttons/Close Button.png" /></button>
+          </div>
+            <!-- <img src="img/HTP-page.jpg" /> -->
+            <!-- <p>Ulajh Karke teri julfon main aabad ho jao ki jaise lucknow ka mai amina baad ho jao.
+              mai jamuna ki trah tanha niharu taaj ko kab tak koi ganga mile tou mai allahbad baad ho jao.
+            </p> -->
+        </dialog>
+        <button class="guideBtn" id="showDialogButton">
+            <img src="img/buttons/HTP Guide Button.png"/>
+          </button>
+    </header>
+    
+    <div class="container">      
+      <div class="bgImage">
+<!--         
+        <div class="userBtns" >
+                <button class="user tab1"></button>
+                <button  class="talent tab1 active"></button> 
+        </div> -->
+
+        <div class="userBtns">
+          <button class="user tab1 active" id="userSelected"></button>
+          <button class="talent tab1"></button> 
+        </div>
+
+        <div class="roundBtns talentContent hidden">
+                <button class="round1Selected"><img class="imgSize" src="img/buttons/Round 01 Button selected.png" /></button>
+                <button class="round1UnSelected"><img class="imgSize" src="img/buttons/Round 02 Button unselected.png" /></button>
+        </div>
+
+        <div class="userAction talentContent">
+          <h1 class="shayri">Naya Pane Ki chahat mein purana choot jata hai.
+            Tujhe Apnao tou zmana rooth jata hai.
+            mohabbat padhne likne mein bahoot asan hai lekin.
+            mohabbat ko nibhane mein pasina choot jata hai.
+          </h1>
+        </div>
+
+        <div class="moduleDesign talentContent hidden" id="section">
+                <button class="chair"><img class="imgSize" src="img/Event Rewards Heading.png" /></button>
+                <div class="pillowAlignment">
+                  <img class="pillow" src="img/Cushion.png" />
+                  <img class="pillow" src="img/Cushion.png" />
+              </div>
+              <div>
+                <p style="font-size: 1rem; margin-top: 2rem;">10 days Celebration Audio Room Theme+Fury Profile Frame</p>
+              </div>
+        </div>
+
+        <div class="roundBtns">
+          <button class="round1Selected"><img class="imgSize" src="img/buttons/Round 01 Button selected.png" /></button>
+          <button class="round1Selected"><img class="imgSize" src="img/buttons/Round 02 Button unselected.png" /></button>
+        </div>
+
+        <div class="scheduleModule">
+          <img class="scheduleSize" src="img/Schedule heading.png" />
+          <table>
+            <tr>
+                <th>Date</th>
+                <th>Player 1</th>
+                <th>
+                    <img class="vs" class="vs" src="./img/Vs.png" />
+                </th>
+                <th>Player 2</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td><p>Name:</p> ID:00000</td>
+                <td><img class="vs" src="./img/Vs.png" /></td>
+                <td><p>Name:</p> ID:00000</td>
+                <td>Time</td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td><p>Name:</p> ID:00000</td>
+                <td><img class="vs" src="./img/Vs.png" /></td>
+                <td><p>Name:</p> ID:00000</td>
+                <td>Time</td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td><p>Name:</p> ID:00000</td>
+                <td><img class="vs" src="./img/Vs.png" /></td>
+                <td><p>Name:</p> ID:00000</td>
+                <td>Time</td>
+            </tr>
+        </table>
+        </div>
+
+        <div class="userBtns">
+          <button class="btnSize"><img class="imgSize" src="img/buttons/Users Button unselected.png" /></button>
+          <button class="btnSize"><img class="imgSize" src="img/buttons/Talents button selected.png" /></button> 
+      </div>
+
+      <div class="roundBtns">
+          <button class="round1Selected"><img class="imgSize" src="img/buttons/Round 01 Button selected.png" /></button>
+          <button class="round1UnSelected"><img class="imgSize" src="img/buttons/Round 02 Button unselected.png" /></button>
+    </div>
+    <div class="leaderBoard">
+      <div class="container" >
+        <img class="leaderBoardSize" src="img/Leaderboard Heading.png" />
+        <div class="flagConatainer">
+          <div class="leftFlag">
+            <img class="frameSize" src="img/background/Frame 02.png" />
+            <div style="display: flex; flex-direction: column ;">
+              <span>UserName:</span>
+              <span>ID:000000</span>
+              <span>Earnings</span>
+            </div>
+          </div>
+          <div class="middleFlag">
+            <img class="frameSize" src="img/background/Frame 01.png" />
+            <div style="display: flex; flex-direction: column ;">
+              <span>UserName:</span>
+              <span>ID:000000</span>
+              <span>Earnings</span>
+            </div>
+          </div>
+          <div class="rightFlag">
+            <img class="frameSize" src="img/background/Frame 03.png" />
+            <div style="display: flex; flex-direction: column ;">
+              <span>UserName:</span>
+              <span>ID:000000</span>
+              <span>Earnings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="userLeaderBoadrd">
+        <div class="imgUserName">
+          <h4>4</h4>
+          <img style="width: 15%; height: 8vh;" src="img/round1.jpg" />
+          <h4>UserName</h4>
+        </div>
+        <div>
+          <h4>Earnings</h4>
+        </div>
+      </div>
+      <div class="userLeaderBoadrd1">
+        <div class="imgUserName">
+          <h4>5</h4>
+          <img style="width: 15%; height: 8vh;" src="img/round1.jpg" />
+          <h4>UserName</h4>
+        </div>
+        <div>
+          <h4>Earnings</h4>
+        </div>
+      </div>
+      <div class="userLeaderBoadrd1">
+        <div class="imgUserName">
+          <h4>6</h4>
+          <img style="width: 15%; height: 8vh;" src="img/round1.jpg" />
+          <h4>UserName</h4>
+        </div>
+        <div>
+          <h4>Earnings</h4>
+        </div>
+      </div>
+      <div class="userLeaderBoadrd1">
+        <div class="imgUserName">
+          <h4>7</h4>
+          <img style="width: 15%; height: 8vh;" src="img/round1.jpg" />
+          <h4>UserName</h4>
+        </div>
+        <div>
+          <h4>Earnings</h4>
+        </div>
+      </div>
+      <div class="userLeaderBoadrd1">
+        <div class="imgUserName">
+          <h4>8</h4>
+          <img style="width: 15%; height: 8vh;" src="img/round1.jpg" />
+          <h4>UserName</h4>
+        </div>
+        <div>
+          <h4>Earnings</h4>
+        </div>
+      </div>
+      <div class="userLeaderBoadrd1">
+        <div class="imgUserName">
+          <h4>9</h4>
+          <img style="width: 15%; height: 8vh;" src="img/round1.jpg" />
+          <h4>UserName</h4>
+        </div>
+        <div>
+          <h4>Earnings</h4>
+        </div>
+      </div>
+      <div class="userLeaderBoadrd1">
+        <div class="imgUserName">
+          <h4>10</h4>
+          <img style="width: 15%; height: 8vh;" src="img/round1.jpg" />
+          <h4>UserName</h4>
+        </div>
+        <div>
+          <h4>Earnings</h4>
+        </div>
+      </div>
+    </div>
+    <h3>All rights reserved to StreamKar</h3>
+    </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+.modal {
+    position: fixed;
+    z-index: 100;
+    padding-top: 13vw;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content,
+.oopmodal-content,
+.congomodal-content {
+    margin: auto;
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+}
+
+.oopmodal-content,
+.congomodal-content {
+    height: 60vh;
+}
+
+.guideMainBg {
+    background: url(../img/backgrounds/guidebg.png) center/100% 100% no-repeat;
+    padding: 2vw 0vw;
+    margin: auto;
+    height: 52vh;
+    padding-bottom: 10vw;
+}
+
+.guideHeading {
+    width: 33vw;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+.guideBtnsBg {
+    background: url('../img/backgrounds/Guide btn bg.png') center/100% 100% no-repeat;
+    margin: 3vw auto;
+    width: 75%;
+}
+
+.guideConentCon {
+    max-height: 38vh;
+    overflow-y: scroll;
+    line-height: 1.7;
+    width: 90%;
+    padding-bottom: 0vw;
+    }
+
+.oppsContent {
+    background: url(../img/backgrounds/eventGiftsBg.png) center/100% 100% no-repeat;
+    padding: 6vw 0vw;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.oppsHeading,
+.congoHeading {
+    width: 25vw;
+}
+
+.congoContent {
+    background: url(../img/backgrounds/eventGiftsBg.png) center/100% 100% no-repeat;
+    padding: 0vw 0vw;
+    margin: 12vw auto !important;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-bottom: 10vw;
+    padding-top: 4vw;
+}
+
+.rewardsPopCon {
+    max-height: 60vh;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

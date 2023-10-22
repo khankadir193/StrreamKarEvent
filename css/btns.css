@@ -1,0 +1,48 @@
+
+.userBtns {
+    /* padding: 5vw 13vw; */
+    margin-top: 0vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnSize{
+    width: 40%; 
+    height: 10vh;
+}
+
+.roundBtns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.round1Selected{
+    /* margin-left: 20rem; */
+    width: 40%; 
+    height: 10vh;
+
+}
+
+.round1UnSelected{
+    /* margin-right: 20rem; */
+    width: 40%; 
+    height: 10vh;
+}
+
+.guideBtn {
+    width: 18vw;
+    position: sticky;
+    right: 0rem;
+    left: 23rem;
+    top: 90vw;
+    z-index: 20;
+}
+
+.chair{
+    width: 50%;
+}
+
+.closeBtn{
+    width: 100%;
+    height: 10vh;
+}
