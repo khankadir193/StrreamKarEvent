@@ -184,7 +184,7 @@ footer {
     width: 30%;
 }
 .pillowAlignment{
-    margin-top: 4rem;
+    margin-top: 5.5rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -321,7 +321,7 @@ td {
 
 .userLeaderBoadrd1{
     align-items: center;
-    background-color: rgb(208, 5, 5);
+    background-color: rgb(360, 5, 5);
     width: 90%;
     height: 8%;
     margin-top: 0.5rem;
@@ -374,6 +374,7 @@ td {
     display: flex; 
     width: 45%; 
     justify-content: space-evenly;
+    margin-left: -2rem;
 }
 
 .userAction{
@@ -391,6 +392,7 @@ td {
 }
 .customDialog{
     background: transparent;
+    border: none;
 }
 
 .textImgAlignment{
