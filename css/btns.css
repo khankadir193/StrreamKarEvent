@@ -34,8 +34,7 @@
     position: sticky;
     right: 0rem;
     left: 23rem;
-    top: 90vw;
-    z-index: 20;
+    margin-top: 10rem;
 }
 
 .chair{
